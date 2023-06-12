@@ -1,11 +1,21 @@
 # Price
 
+## Retrieve current prices
+
+## Resource URL
 https://api.blockchain.com/v3/exchange/tickers
+
+## Resource description
+
+## Endpoints and methods
+[GET]   /tickers
+
+## Request example
 curl -X GET "https://api.blockchain.com/v3/exchange/tickers" -H  "accept: application/json"
 
-## Response
+## Response body
 
-``json
+```json
 [
   {
     "symbol": "TFUEL-USDC",
@@ -981,3 +991,22 @@ curl -X GET "https://api.blockchain.com/v3/exchange/tickers" -H  "accept: applic
   }
 ]
 ```
+
+## Example value
+```json
+[
+  {
+    "symbol": "BTC-USD",
+    "price_24h": 4998,
+    "volume_24h": 0.3015,
+    "last_trade_price": 5000
+  }
+]
+```
+
+## Response description
+The following table describes each item in the response.
+| Response item | Description | Data type |
+| Symbol | a mark or character used as a conventional representation of an object, function, or process. | |
+| Price | the amount of money expected, required, or given in payment for something. | Integer |
+| Volume | the number of shares traded in a particular stock, index, or other investment over a specific period of time | Integer |
