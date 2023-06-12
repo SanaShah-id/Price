@@ -1007,6 +1007,7 @@ curl -X GET "https://api.blockchain.com/v3/exchange/tickers" -H  "accept: applic
 ## Response description
 The following table describes each item in the response.
 | Response item | Description | Data type |
+| ------ | ------ | ------ |
 | Symbol | a mark or character used as a conventional representation of an object, function, or process. | |
 | Price | the amount of money expected, required, or given in payment for something. | Integer |
 | Volume | the number of shares traded in a particular stock, index, or other investment over a specific period of time | Integer |
