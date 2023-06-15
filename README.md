@@ -6,6 +6,7 @@
 https://api.blockchain.com/v3/exchange/tickers
 
 ## Resource description
+Retrieve the latest price
 
 ## Endpoints and methods
 [GET]   /tickers
